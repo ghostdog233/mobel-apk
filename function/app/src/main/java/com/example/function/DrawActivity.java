@@ -9,9 +9,6 @@ import android.view.MotionEvent;
 import android.view.View;
 
 
-/**
- * Created by Administrator on 14-4-18.
- */
 public class DrawActivity extends View implements View.OnTouchListener{
     float PI=(float)Math.PI;//PI=3.1415那个什么的每次调用(float)Math.PI太麻烦，自定义一个。
     float canvasWidth,canvasHeight;//画布宽、高
